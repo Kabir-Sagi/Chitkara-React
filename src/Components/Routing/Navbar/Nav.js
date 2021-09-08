@@ -12,8 +12,10 @@ function Nav() {
           <ul className="nav">
               <li className="nav-item"><Link className="nav-link text-white" to="/">Home</Link></li>
               <li className="nav-item"><Link className="nav-link text-white" to="/capi">ContextAPI</Link></li>
-              <li className="nav-item"><Link className="nav-link text-white" to="/profile">Form</Link></li>
-              <li className="nav-item"><Link className="nav-link text-white" to="/help">Help</Link></li>
+              <li className="nav-item"><Link className="nav-link text-white" to="/form">Form</Link></li>
+              <li className="nav-item"><Link className="nav-link text-white" to="/weather">Weather App</Link></li>
+              <li className="nav-item"><Link className="nav-link text-white" to="/redux">Redux</Link></li>
+              <li className="nav-item"><Link className="nav-link text-white" to="/info">Information About Items</Link></li>
           </ul>
         </div>
       </nav>

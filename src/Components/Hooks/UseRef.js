@@ -18,11 +18,11 @@ import React,{useRef} from 'react'
     }
 
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-sm-3"></div>
-                <div className="col-sm-6">
-                       <div className="card">
+        <div className="container-fluid pt-5" style={{backgroundColor:"rgba(0,0,0,0.3)",height:"100vh"}}>
+            <div className="row pt-5">
+                <div className="col-sm-3 "></div>
+                <div className="col-sm-6 pt-3">
+                       <div className="card ">
 
                            <div className="card-header bg-dark text-white h4"> FORM CONCEPT</div>
                            <div className="card-body">

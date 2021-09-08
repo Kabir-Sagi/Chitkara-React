@@ -1,4 +1,35 @@
- .h2 {
-     color:red
- }
- 
+
+
+
+h2 {
+    margin-left: 20px;
+}
+
+.landingpage {
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/7148995/pexels-photo-7148995.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=700") no-repeat ;
+}
+.landingpage div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.landingpage div h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+button {
+    padding: 15px 15px;
+    background-color: tomato;
+    border: none;
+    color: whitesmoke;
+    box-shadow:  0 0 20px white;
+}
