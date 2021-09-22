@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,h1 {
+    margin: 0;
+}
+h2 {
+    color:darkgrey
+}
+ p {
+     color:coral;
+     font-size:20px;
+
+ }
+ .header {
+    background-color: rgb(41, 24, 24);
+    height: 70px;
+} 
+#brand {
+    color:cornsilk;
+    text-align: center;
+    width: 40%;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+#nav {
+    text-align: right;
+    width: 60%;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+}
+a {
+    color: cornsilk;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#img {
+    margin-top: 140px;
+    text-align: center;
+}
+#content {
+    margin-top: 100px;
+    
+}
